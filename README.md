@@ -1,2 +1,2 @@
 # CSE-535
-MC
+Mobile computing
