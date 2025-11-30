@@ -16,6 +16,36 @@ The framework addresses critical limitations in existing mobile energy optimizat
 4. **Battery-Aware Adaptation**: Dynamically adjusts policies based on battery state
 5. **Cross-Device Personalization**: Transfers knowledge across device types and user profiles
 
+## Results and Visualizations
+
+### Training Results
+
+The following visualization shows the training progress over 100 episodes, including episode rewards, energy consumption, battery remaining, and training losses:
+
+![Training Results](training_results.png)
+
+The training results demonstrate:
+- **Improving Episode Rewards**: Moving average reward increases from ~700 to ~900-1000, showing successful learning
+- **Stable Battery Management**: Battery levels consistently remain above 85%, well above the critical 20% threshold
+- **Converging Losses**: Both critic and actor losses stabilize, indicating successful convergence
+- **Energy Optimization**: Energy consumption stabilizes around 1400-1500 mWh after initial exploration
+
+### Model Evaluation
+
+#### Early Training (Episode 10)
+
+The checkpoint at episode 10 shows the model's behavior during early training:
+
+![Checkpoint Evaluation at Episode 10](my_eval_checkpoint_10.png)
+
+#### Final Model (After Full Training)
+
+The final trained model demonstrates optimized sensor coordination and energy management:
+
+![Final Model Evaluation](my_eval_final_model.png)
+
+For detailed analysis of the training process and model behavior, see [FMADRL_Training_Analysis.md](FMADRL_Training_Analysis.md).
+
 ## Project Structure
 
 ```

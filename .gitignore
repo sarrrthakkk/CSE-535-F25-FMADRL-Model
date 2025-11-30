@@ -62,6 +62,9 @@ outputs/
 runs/
 logs/
 *.png
+!training_results.png
+!my_eval_checkpoint_10.png
+!my_eval_final_model.png
 *.jpg
 *.jpeg
 *.pdf
