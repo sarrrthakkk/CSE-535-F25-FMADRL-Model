@@ -19,7 +19,7 @@ The framework addresses critical limitations in existing mobile energy optimizat
 ## Project Structure
 
 ```
-CSE-535/
+CSE-535-F25-FMADRL-Model/
 ├── requirements.txt         # Python dependencies
 ├── README.md               # This file
 └── src/
@@ -41,8 +41,8 @@ CSE-535/
 
 ```bash
 # Clone the repository
-git clone https://github.com/sarrrthakkk/CSE-535.git
-cd CSE-535
+git clone https://github.com/sarrrthakkk/CSE-535-F25-FMADRL-Model.git
+cd CSE-535-F25-FMADRL-Model
 
 # Create virtual environment (recommended)
 python -m venv venv
