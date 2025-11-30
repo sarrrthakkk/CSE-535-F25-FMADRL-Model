@@ -4,7 +4,7 @@
 
 **Authors:** Sarthak Mishra, Dylan Forrest, Ayushi Jignesh Desai, Fahad Faleh A Albaqami  
 **Institution:** School of Computing and Augmented Intelligence, Arizona State University  
-**Date:** November 2024
+**Date:** November 2025
 
 ---
 
@@ -360,6 +360,4 @@ Potential improvements identified through this analysis:
 | `final_model.pt` | Saved model weights after training |
 
 ---
-
-*This document was generated as part of the CSE-535 Mobile Computing course project at Arizona State University.*
 
