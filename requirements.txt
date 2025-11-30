@@ -1,0 +1,23 @@
+# FMADRL Framework Dependencies
+# Federated Multi-Agent Deep Reinforcement Learning for Mobile Energy Optimization
+
+# Core ML/RL frameworks
+torch>=2.0.0
+numpy>=1.24.0
+
+# Reinforcement Learning
+gymnasium>=0.29.0
+
+# Federated Learning simulation
+# (We implement a lightweight version without heavy FL frameworks)
+
+# Utilities
+matplotlib>=3.7.0
+pandas>=2.0.0
+tqdm>=4.65.0
+pyyaml>=6.0
+
+# Optional: For more advanced experiments
+# ray[rllib]>=2.6.0
+# tensorflow-federated>=0.50.0
+
